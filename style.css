@@ -84,3 +84,18 @@ nav {
     color: 3c3c3c;
     margin-bottom: 260px;
 }
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 40px;
+    border-radius: 10px;
+}
+
+.btn--change {
+    background-color: #FFFFFF33;
+}
+
+.btn--change:hover {
+    background-color: #FFFFFF7D;
+}
