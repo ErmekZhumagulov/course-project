@@ -377,21 +377,26 @@ nav {
 
 .heading-text-1 {
     color: rgb(230, 230, 230);
-    font-size: 24px;
+    font-size: 26px;
 }
 
 .linkis {
     color: rgb(230, 230, 230);
-}
-
-.contacts p {
-    color: rgb(230, 230, 230);
-    padding-left: 30px;
+    font-size: 16px;
 }
 
 .heading-text-2 {
     color: rgb(230, 230, 230);
-    font-size: 24px;
+    font-size: 26px;
+}
+
+.contacts p {
+    color: rgb(230, 230, 230);
+}
+
+.telandmail {
+    padding-left: 30px;
+    font-size: 14px;
 }
 
 .mailof, .telof {
@@ -401,9 +406,15 @@ nav {
 
 .heading-text-3 {
     color: rgb(230, 230, 230);
-    font-size: 24px;
+    font-size: 26px;
 }
 
 .last-text {
     color: rgb(230, 230, 230);
+    font-size: 14px;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
 }
