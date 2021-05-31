@@ -385,6 +385,14 @@ nav {
     font-size: 16px;
 }
 
+.linkis1 {
+    margin-top: 37px;
+}
+
+.linkis2 {
+    margin-top: 10px;
+}
+
 .heading-text-2 {
     color: rgb(230, 230, 230);
     font-size: 26px;
@@ -404,17 +412,35 @@ nav {
     align-items: center;
 }
 
+.mailof {
+    margin-top: 38px;
+}
+
+.telof {
+    margin-top: 10px;
+}
+
 .heading-text-3 {
     color: rgb(230, 230, 230);
     font-size: 26px;
 }
 
+.soc-icons {
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
 .last-text {
     color: rgb(230, 230, 230);
     font-size: 14px;
+    margin-top: 12px;
 }
 
 .footer-flex {
     display: flex;
     justify-content: space-between;
+}
+
+.all-elements-of-footer {
+    padding-top: 70px;
 }
