@@ -166,26 +166,32 @@ nav {
 
 .image-card-1 img {
     border-radius: 5px;
+    box-shadow: 1px 3px 10px 3px #aaa;
 }
 
 .image-card-2 img {
     border-radius: 5px;
+    box-shadow: 1px 3px 10px 3px #aaa;
 }
 
 .image-card-3 img {
     border-radius: 5px;
+    box-shadow: 1px 3px 10px 3px #aaa;
 }
 
 .image-card-4 img {
     border-radius: 5px;
+    box-shadow: 1px 3px 10px 3px #aaa;
 }
 
 .image-card-5 img {
     border-radius: 5px;
+    box-shadow: 1px 3px 10px 3px #aaa;
 }
 
 .image-card-6 img {
     border-radius: 5px;
+    box-shadow: 1px 3px 10px 3px #aaa;
 }
 
 .btn2 {
@@ -211,4 +217,54 @@ nav {
 
 .btn12 {
     padding-bottom: 60px;
+}
+
+.btn-card-1-in-a {
+    display: inline-block;
+    text-align: center;
+    padding: 7px 60px;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: background .1s linear;
+    font-size: 16px;
+    color: #252525;
+}
+
+.btn--change-card-1 {
+    background-color: #FFFFFF33;
+}
+
+.btn--change-card-1:hover {
+    background-color: #FFFFFF7D;
+}
+
+.btn-card-1 {
+    margin-top: -85px;
+}
+
+.btn-card-2-in-a {
+    display: inline-block;
+    text-align: center;
+    padding: 16px 40px;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: background .1s linear;
+    font-size: 16px;
+    color: #252525;
+}
+
+.btn--change-card-2 {
+    background-color: #FFFFFF33;
+}
+
+.btn--change-card-2:hover {
+    background-color: #FFFFFF7D;
+}
+
+.btn-card-2 {
+    margin-top: -85px;
 }
