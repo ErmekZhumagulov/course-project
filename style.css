@@ -141,27 +141,27 @@ nav {
 }
 
 .card-1 {
-    margin-bottom: 35px;
+    margin-bottom: 45px;
 }
 
 .card-2 {
-    margin-bottom: 35px;
+    margin-bottom: 45px;
 }
 
 .card-3 {
-    margin-bottom: 35px;
+    margin-bottom: 45px;
 }
 
 .card-4 {
-    margin-bottom: 35px;
+    margin-bottom: 45px;
 }
 
 .card-5 {
-    margin-bottom: 35px;
+    margin-bottom: 45px;
 }
 
 .card-6 {
-    margin-bottom: 35px;
+    margin-bottom: 45px;
 }
 
 .image-card-1 img {
@@ -194,7 +194,7 @@ nav {
     box-shadow: 1px 3px 10px 3px #aaa;
 }
 
-.btn2 {
+.btn-more-in-a {
     display: inline-block;
     text-align: center;
     padding: 14px 40px;
@@ -207,15 +207,16 @@ nav {
     color: #252525;
 }
 
-.btn--change2 {
+.btn--change-more {
     background-color: #0000001E;
 }
 
-.btn--change2:hover {
+.btn--change-more:hover {
     background-color: #0000003C;
 }
 
-.btn12 {
+.btn-more {
+    margin-top: 10px;
     padding-bottom: 60px;
 }
 
@@ -266,5 +267,105 @@ nav {
 }
 
 .btn-card-2 {
+    margin-top: -85px;
+}
+
+.btn-card-3-in-a {
+    display: inline-block;
+    text-align: center;
+    padding: 16px 34px;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: background .1s linear;
+    font-size: 16px;
+    color: #252525;
+}
+
+.btn--change-card-3 {
+    background-color: #FFFFFF33;
+}
+
+.btn--change-card-3:hover {
+    background-color: #FFFFFF7D;
+}
+
+.btn-card-3 {
+    margin-top: -85px;
+}
+
+.btn-card-4-in-a {
+    display: inline-block;
+    text-align: center;
+    padding: 16px 44px;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: background .1s linear;
+    font-size: 16px;
+    color: #252525;
+}
+
+.btn--change-card-4 {
+    background-color: #FFFFFF33;
+}
+
+.btn--change-card-4:hover {
+    background-color: #FFFFFF7D;
+}
+
+.btn-card-4 {
+    margin-top: -85px;
+}
+
+.btn-card-5-in-a {
+    display: inline-block;
+    text-align: center;
+    padding: 16px 30px;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: background .1s linear;
+    font-size: 16px;
+    color: #252525;
+}
+
+.btn--change-card-5 {
+    background-color: #FFFFFF33;
+}
+
+.btn--change-card-5:hover {
+    background-color: #FFFFFF7D;
+}
+
+.btn-card-5 {
+    margin-top: -85px;
+}
+
+.btn-card-6-in-a {
+    display: inline-block;
+    text-align: center;
+    padding: 16px 40px;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: background .1s linear;
+    font-size: 16px;
+    color: #252525;
+}
+
+.btn--change-card-6 {
+    background-color: #FFFFFF33;
+}
+
+.btn--change-card-6:hover {
+    background-color: #FFFFFF7D;
+}
+
+.btn-card-6 {
     margin-top: -85px;
 }
