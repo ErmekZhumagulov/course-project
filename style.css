@@ -379,3 +379,31 @@ nav {
     color: rgb(230, 230, 230);
     font-size: 24px;
 }
+
+.linkis {
+    color: rgb(230, 230, 230);
+}
+
+.contacts p {
+    color: rgb(230, 230, 230);
+    padding-left: 30px;
+}
+
+.heading-text-2 {
+    color: rgb(230, 230, 230);
+    font-size: 24px;
+}
+
+.mailof, .telof {
+    display: flex;
+    align-items: center;
+}
+
+.heading-text-3 {
+    color: rgb(230, 230, 230);
+    font-size: 24px;
+}
+
+.last-text {
+    color: rgb(230, 230, 230);
+}
