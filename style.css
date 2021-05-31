@@ -30,7 +30,7 @@ p {
 
 .container {
     width: 100%;
-    max-width: 1100px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -67,8 +67,8 @@ a {
 .header {
     width: 100%;
     height: 100%;
-    background: url(images/for-header1.jpg) no-repeat center top / cover;
-    /* background-size: 100%; */
+    background: url(images/for-header1.jpg) no-repeat center top/*  / cover */;
+    background-size: 100%;
 }
 
 header a {
@@ -81,9 +81,9 @@ nav {
 
 .main-text {
     margin-top: 220px;
-    font-size: 40px;
+    font-size: 44px;
     color: 3c3c3c;
-    margin-bottom: 170px;
+    margin-bottom: 118px;
 }
 
 .btn {
@@ -95,6 +95,7 @@ nav {
     left: 50%;
     transform: translate(-50%, 0);
     transition: background .1s linear;
+    font-size: 20px;
 }
 
 .btn--change {
@@ -115,4 +116,25 @@ nav {
 
 .nav-btn--change:hover {
     color: #eee;
+}
+
+.content {
+    background-color: #eee;
+}
+
+.main-text-2 {
+    margin-top: 0px;
+    font-size: 44px;
+    color: 3c3c3c;
+    margin-bottom: 0px;
+}
+
+.all-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-1 .card-2 .card-3 .card-4 .card-5 .card-6 {
+    display: block;
 }
