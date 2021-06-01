@@ -371,6 +371,7 @@ nav {
 .footer {
     height: 350px;
     background-color: #393E46;
+    box-shadow: 0px 0px 10px 3px #aaa;
 }
 
 .heading-text-1 {
