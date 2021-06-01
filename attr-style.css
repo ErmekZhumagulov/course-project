@@ -67,3 +67,420 @@ header a {
 nav {
     padding-top: 40px;
 }
+
+.nav-btn--change {
+    color: #252525;
+}
+
+.nav-btn--change:hover {
+    color: rgb(255, 255, 255);
+}
+
+/* content------------------------------------------------------------------------------------------ */
+
+.main-text-2 {
+    margin-top: 60px;
+    font-size: 44px;
+    color: 3c3c3c;
+    margin-bottom: 35px;
+
+}
+
+.all-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-1 .card-2 .card-3 .card-4 .card-5 .card-6 .card-7 .card-8 .card-9 .card-10 .card-11 .card-12 .card-13 .card-14 .card-15 .card-16 .card-17 .card-18 .card-19 .card-20 .card-21 .card-22 .card-23 .card-24 .card-25 .card-26 .card-27 .card-28 .card-29 .card-30 .card-31 .card-32 .card-33 {
+    display: block;
+}
+
+.card-1 {
+    margin-bottom: 45px;
+}
+
+.card-2 {
+    margin-bottom: 45px;
+}
+
+.card-3 {
+    margin-bottom: 45px;
+}
+
+.card-4 {
+    margin-bottom: 45px;
+}
+
+.card-5 {
+    margin-bottom: 45px;
+}
+
+.card-6 {
+    margin-bottom: 45px;
+}
+
+.image-card-1 img {
+    border-radius: 5px;
+    box-shadow: 1px 3px 10px 3px #aaa;
+}
+
+.image-card-2 img {
+    border-radius: 5px;
+    box-shadow: 1px 3px 10px 3px #aaa;
+}
+
+.image-card-3 img {
+    border-radius: 5px;
+    box-shadow: 1px 3px 10px 3px #aaa;
+}
+
+.image-card-4 img {
+    border-radius: 5px;
+    box-shadow: 1px 3px 10px 3px #aaa;
+}
+
+.image-card-5 img {
+    border-radius: 5px;
+    box-shadow: 1px 3px 10px 3px #aaa;
+}
+
+.image-card-6 img {
+    border-radius: 5px;
+    box-shadow: 1px 3px 10px 3px #aaa;
+}
+
+.btn-card-1-in-a {
+    display: inline-block;
+    text-align: center;
+    padding: 7px 60px;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: background .1s linear;
+    font-size: 16px;
+    color: #252525;
+}
+
+.btn--change-card-1 {
+    background-color: #FFFFFF33;
+}
+
+.btn--change-card-1:hover {
+    background-color: #FFFFFF7D;
+}
+
+.btn-card-1 {
+    margin-top: -85px;
+}
+
+.btn-card-2-in-a {
+    display: inline-block;
+    text-align: center;
+    padding: 16px 40px;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: background .1s linear;
+    font-size: 16px;
+    color: #252525;
+}
+
+.btn--change-card-2 {
+    background-color: #FFFFFF33;
+}
+
+.btn--change-card-2:hover {
+    background-color: #FFFFFF7D;
+}
+
+.btn-card-2 {
+    margin-top: -85px;
+}
+
+.btn-card-3-in-a {
+    display: inline-block;
+    text-align: center;
+    padding: 16px 34px;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: background .1s linear;
+    font-size: 16px;
+    color: #252525;
+}
+
+.btn--change-card-3 {
+    background-color: #FFFFFF33;
+}
+
+.btn--change-card-3:hover {
+    background-color: #FFFFFF7D;
+}
+
+.btn-card-3 {
+    margin-top: -85px;
+}
+
+.btn-card-4-in-a {
+    display: inline-block;
+    text-align: center;
+    padding: 16px 44px;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: background .1s linear;
+    font-size: 16px;
+    color: #252525;
+}
+
+.btn--change-card-4 {
+    background-color: #FFFFFF33;
+}
+
+.btn--change-card-4:hover {
+    background-color: #FFFFFF7D;
+}
+
+.btn-card-4 {
+    margin-top: -85px;
+}
+
+.btn-card-5-in-a {
+    display: inline-block;
+    text-align: center;
+    padding: 16px 30px;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: background .1s linear;
+    font-size: 16px;
+    color: #252525;
+}
+
+.btn--change-card-5 {
+    background-color: #FFFFFF33;
+}
+
+.btn--change-card-5:hover {
+    background-color: #FFFFFF7D;
+}
+
+.btn-card-5 {
+    margin-top: -85px;
+}
+
+.btn-card-6-in-a {
+    display: inline-block;
+    text-align: center;
+    padding: 16px 40px;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: background .1s linear;
+    font-size: 16px;
+    color: #252525;
+}
+
+.btn--change-card-6 {
+    background-color: #FFFFFF33;
+}
+
+.btn--change-card-6:hover {
+    background-color: #FFFFFF7D;
+}
+
+.btn-card-6 {
+    margin-top: -85px;
+}
+
+
+
+/* card-7 and further------------------------------------------------------------------------------- */
+
+.card-7 {
+    margin-bottom: 45px;
+}
+
+.image-card-7 img {
+    border-radius: 5px;
+    box-shadow: 1px 3px 10px 3px #aaa;
+}
+
+.btn-card-7-in-a {
+    display: inline-block;
+    text-align: center;
+    padding: 16px 34px;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: background .1s linear;
+    font-size: 16px;
+    color: #252525;
+}
+
+.btn--change-card-7 {
+    background-color: #FFFFFF33;
+}
+
+.btn--change-card-7:hover {
+    background-color: #FFFFFF7D;
+}
+
+.btn-card-7 {
+    margin-top: -85px;
+}
+
+.card-8 {
+    margin-bottom: 45px;
+}
+
+.image-card-8 img {
+    border-radius: 5px;
+    box-shadow: 1px 3px 10px 3px #aaa;
+}
+
+.btn-card-8-in-a {
+    display: inline-block;
+    text-align: center;
+    padding: 26px 54px;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: background .1s linear;
+    font-size: 16px;
+    color: #252525;
+}
+
+.btn--change-card-8 {
+    background-color: #FFFFFF33;
+}
+
+.btn--change-card-8:hover {
+    background-color: #FFFFFF7D;
+}
+
+.btn-card-8 {
+    margin-top: -85px;
+}
+
+.card-9 {
+    margin-bottom: 45px;
+}
+
+.image-card-9 img {
+    border-radius: 5px;
+    box-shadow: 1px 3px 10px 3px #aaa;
+}
+
+.btn-card-9-in-a {
+    display: inline-block;
+    text-align: center;
+    padding: 16px 40px;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: background .1s linear;
+    font-size: 16px;
+    color: #252525;
+}
+
+.btn--change-card-9 {
+    background-color: #FFFFFF33;
+}
+
+.btn--change-card-9:hover {
+    background-color: #FFFFFF7D;
+}
+
+.btn-card-9 {
+    margin-top: -85px;
+}
+
+
+
+/* footer------------------------------------------------------------------------------------ */
+
+.footer {
+    height: 350px;
+    background-color: #393E46;
+}
+
+.heading-text-1 {
+    color: rgb(230, 230, 230);
+    font-size: 26px;
+}
+
+.linkis {
+    color: rgb(230, 230, 230);
+    font-size: 16px;
+}
+
+.linkis1 {
+    margin-top: 37px;
+}
+
+.linkis2 {
+    margin-top: 10px;
+}
+
+.heading-text-2 {
+    color: rgb(230, 230, 230);
+    font-size: 26px;
+}
+
+.contacts p {
+    color: rgb(230, 230, 230);
+}
+
+.telandmail {
+    padding-left: 30px;
+    font-size: 14px;
+}
+
+.mailof, .telof {
+    display: flex;
+    align-items: center;
+}
+
+.mailof {
+    margin-top: 38px;
+}
+
+.telof {
+    margin-top: 10px;
+}
+
+.heading-text-3 {
+    color: rgb(230, 230, 230);
+    font-size: 26px;
+}
+
+.soc-icons {
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.last-text {
+    color: rgb(230, 230, 230);
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-elements-of-footer {
+    padding-top: 70px;
+}

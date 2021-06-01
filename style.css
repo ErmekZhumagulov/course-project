@@ -34,6 +34,14 @@ p {
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+}
+
+
+
+/* header------------------------------------------------------------------------------------------- */
+
 ul {
     width: 100%;
     height: 100%;
@@ -50,10 +58,6 @@ li {
     margin: 0;
 }
 
-a {
-    text-decoration: none;
-}
-
 .header {
     width: 100%;
     height: 100%;
@@ -67,6 +71,14 @@ header a {
 
 nav {
     padding-top: 40px;
+}
+
+.nav-btn--change {
+    color: #252525;
+}
+
+.nav-btn--change:hover {
+    color: #eee;
 }
 
 .main-text {
@@ -100,13 +112,9 @@ nav {
     padding-bottom: 50px;
 }
 
-.nav-btn--change {
-    color: #252525;
-}
 
-.nav-btn--change:hover {
-    color: #eee;
-}
+
+/* content------------------------------------------------------------------------------------------ */
 
 .content {
     background-color: #eee;
