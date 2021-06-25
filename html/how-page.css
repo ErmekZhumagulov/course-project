@@ -161,3 +161,669 @@ nav {
 .all-elements-of-footer {
     padding-top: 70px;
 }
+
+
+
+@media (min-width: 991px) and (max-width: 1199px) {                  /* стили для md-устройств */
+    
+
+    .main-content-p {
+        padding: 0 30px 0 30px;
+    }
+
+    ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    li {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+    
+    .header {
+        width: 100%;
+        height: 95px;
+        background-color: #393e4648;
+        box-shadow: 0px 0px 5px 0px #aaa;
+    }
+    
+    header a {
+        color: #252525;
+    }
+    
+    nav {
+        padding-top: 35px;
+    }
+    
+    .nav-btn--change {
+        color: #252525;
+    }
+    
+    .nav-btn--change:hover {
+        color: #eee;
+    }
+    
+    .main-text {
+        margin-top: 150px;
+        font-size: 44px;
+        color: 3c3c3c;
+        margin-bottom: 45px;
+    }
+    
+    .btn {
+        display: inline-block;
+        text-align: center;
+        padding: 14px 40px;
+        border-radius: 10px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+        transition: background .1s linear;
+        font-size: 20px;
+        margin-bottom: 80px;
+    }
+    
+    .btn--change {
+        background-color: #FFFFFF33;
+    }
+    
+    .btn--change:hover {
+        background-color: #FFFFFF7D;
+    }
+    
+    .btn1 {
+        padding-bottom: 50px;
+    }
+    
+    
+    
+    /* content------------------------------------------------------------------------------------------ */
+
+    
+
+
+
+    /* footer------------------------------------------------------------------------------------------- */
+
+
+
+    .footer {
+        height: 350px;
+        background-color: #393E46;
+        box-shadow: 0px 0px 10px 3px #aaa;
+    }
+
+    .heading-text-1 {
+        color: rgb(230, 230, 230);
+        font-size: 26px;
+    }
+
+    .linkis {
+        color: rgb(230, 230, 230);
+        font-size: 16px;
+    }
+
+
+    .linkis1 {
+        margin-top: 37px;
+    }
+
+    .linkis2 {
+        margin-top: 10px;
+    }
+
+    .heading-text-2 {
+        color: rgb(230, 230, 230);
+        font-size: 26px;
+    }
+
+    .contacts p {
+        color: rgb(230, 230, 230);
+    }
+
+    .telandmail {
+        padding-left: 30px;
+        font-size: 14px;
+        color: #FFFFFF;
+    }
+
+    .mailof, .telof {
+        display: flex;
+        align-items: center;
+    }
+
+    .mailof {
+        margin-top: 38px;
+    }
+
+    .telof {
+        margin-top: 10px;
+    }
+
+    .heading-text-3 {
+        color: rgb(230, 230, 230);
+        font-size: 26px;
+    }
+
+    .soc-icons {
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    .last-text {
+        color: rgb(230, 230, 230);
+        font-size: 14px;
+        margin-top: 12px;
+    }
+
+    .footer-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .all-elements-of-footer {
+        padding-top: 70px;
+    }
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 810px) {
+    /* footer------------------------------------------------------------------------------------------- */
+
+    .footer {
+        height: 350px;
+        background-color: #393E46;
+        box-shadow: 0px 0px 10px 3px #aaa;
+    }
+
+    .heading-text-1 {
+        color: rgb(230, 230, 230);
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .linkis {
+        color: rgb(230, 230, 230);
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .linkis1 {
+        margin-top: 37px;
+    }
+
+    .linkis2 {
+        margin-top: 10px;
+    }
+
+    .heading-text-2 {
+        color: rgb(230, 230, 230);
+        font-size: 26px;
+        text-align: center;
+        margin-bottom: 40px; 
+    }
+
+    .contacts p {
+        color: rgb(230, 230, 230);
+    }
+
+    .telandmail {
+        padding-left: 30px;
+        font-size: 14px;
+        color: #FFFFFF;
+    }
+
+    .mailof, .telof {
+        display: flex;
+        align-items: center;
+    }
+
+    .mailof {
+        margin-top: 38px;
+    }
+
+    .telof {
+        margin-top: 10px;
+    }
+
+    .heading-text-3 {
+        color: rgb(230, 230, 230);
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .soc-icons {
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    .last-text {
+        color: rgb(230, 230, 230);
+        font-size: 14px;
+        margin-top: 12px;
+    }
+
+    .footer-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .all-elements-of-footer {
+        padding-top: 70px;
+        margin: 0 50px;
+    }
+
+    .net-icon-1, .net-icon-2, .net-icon-3, .net-icon-4, .net-icon-5 {
+        width: 35px;
+    }
+
+    .net-icon-1 {
+        margin-left: 20px;
+    }
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {                 /* стили для sm-устройств */
+    ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    li {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .header {
+        width: 100%;
+        height: 75px;
+        background-color: #393e4648;
+        box-shadow: 0px 0px 5px 0px #aaa;
+    }
+    
+    header a {
+        color: #252525;
+    }
+    
+    nav {
+        padding-top: 25px;
+    }
+    
+    .nav-btn--change {
+        color: #252525;
+    }
+    
+    .nav-btn--change:hover {
+        color: #eee;
+    }
+    
+    .main-text {
+        margin-top: 120px;
+        font-size: 35px;
+        color: 3c3c3c;
+        margin-bottom: 30px;
+        margin-right: 60px;
+    }
+    
+    .btn {
+        display: inline-block;
+        text-align: center;
+        padding: 14px 40px;
+        border-radius: 10px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+        transition: background .1s linear;
+        font-size: 16px;
+        margin-bottom: 60px;
+    }
+    
+    .btn--change {
+        background-color: #FFFFFF33;
+    }
+    
+    .btn--change:hover {
+        background-color: #FFFFFF7D;
+    }
+    
+    .btn1 {
+        padding-bottom: 50px;
+    }
+    
+    
+    
+    /* content------------------------------------------------------------------------------------------ */
+
+
+
+
+
+    /* footer------------------------------------------------------------------------------------------- */
+
+    .footer {
+        height: 350px;
+        background-color: #393E46;
+        box-shadow: 0px 0px 10px 3px #aaa;
+    }
+
+    .heading-text-1 {
+        color: rgb(230, 230, 230);
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .linkis {
+        color: rgb(230, 230, 230);
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .linkis1 {
+        margin-top: 37px;
+    }
+
+    .linkis2 {
+        margin-top: 10px;
+    }
+
+    .heading-text-2 {
+        color: rgb(230, 230, 230);
+        font-size: 26px;
+        text-align: center; 
+    }
+
+    .contacts p {
+        color: rgb(230, 230, 230);
+    }
+
+    .telandmail {
+        padding-left: 30px;
+        font-size: 14px;
+        color: #FFFFFF;
+    }
+
+    .mailof, .telof {
+        display: flex;
+        align-items: center;
+    }
+
+    .mailof {
+        margin-top: 38px;
+    }
+
+    .telof {
+        margin-top: 10px;
+    }
+
+    .heading-text-3 {
+        color: rgb(230, 230, 230);
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .soc-icons {
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    .last-text {
+        color: rgb(230, 230, 230);
+        font-size: 14px;
+        margin-top: 12px;
+    }
+
+    .footer-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .all-elements-of-footer {
+        padding-top: 70px;
+        margin: 0 50px;
+    }
+
+    .net-icon-1, .net-icon-2, .net-icon-3, .net-icon-4, .net-icon-5 {
+        width: 35px;
+    }
+
+    .net-icon-1 {
+        margin-left: 20px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 767px) {                     /* стили для xs-устройств */
+    ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    li {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-btn {
+        font-size: 14px;
+    }
+
+    .nav-btn-edit-1 {
+        margin-left: 50px;
+    }
+
+    .nav-btn-edit-3 {
+        margin-right: 50px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .header {
+        width: 100%;
+        height: 65px;
+        background-color: #393e4648;
+        box-shadow: 0px 0px 5px 0px #aaa;
+    }
+    
+    header a {
+        color: #252525;
+    }
+    
+    nav {
+        padding-top: 22px;
+    }
+    
+    .nav-btn--change {
+        color: #252525;
+    }
+    
+    .nav-btn--change:hover {
+        color: #eee;
+    }
+    
+    .main-text {
+        margin-top: 120px;
+        font-size: 30px;
+        color: 3c3c3c;
+        margin-bottom: 30px;
+        margin-right: 60px;
+    }
+    
+    .btn {
+        display: inline-block;
+        text-align: center;
+        padding: 14px 40px;
+        border-radius: 10px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+        transition: background .1s linear;
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    
+    .btn--change {
+        background-color: #FFFFFF33;
+    }
+    
+    .btn--change:hover {
+        background-color: #FFFFFF7D;
+    }
+    
+    .btn1 {
+        padding-bottom: 50px;
+    }
+    
+    
+    
+    /* content------------------------------------------------------------------------------------------ */
+
+
+
+
+    /* footer------------------------------------------------------------------------------------------- */
+
+    .footer {
+        height: 700px;
+        background-color: #393E46;
+        box-shadow: 0px 0px 10px 3px #aaa;
+    }
+
+    .footer-flex {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .usefull-links {
+        margin: 0 90px 50px 90px;
+    }
+
+    .contacts {
+        margin: 0 90px 50px 90px;
+    }
+
+    .social-media {
+        margin: 0 90px 0 90px;
+    }
+
+    .heading-text-1 {
+        color: rgb(230, 230, 230);
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .linkis {
+        color: rgb(230, 230, 230);
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .linkis1 {
+        margin-top: 37px;
+    }
+
+    .linkis2 {
+        margin-top: 10px;
+    }
+
+    .heading-text-2 {
+        color: rgb(230, 230, 230);
+        font-size: 26px;
+        text-align: center; 
+    }
+
+    .contacts p {
+        color: rgb(230, 230, 230);
+    }
+
+    .telandmail {
+        padding-left: 30px;
+        font-size: 14px;
+        color: #FFFFFF;
+    }
+
+    .mailof, .telof {
+        display: flex;
+        align-items: center;
+    }
+
+    .mailof {
+        margin-top: 38px;
+    }
+
+    .telof {
+        margin-top: 10px;
+    }
+
+    .heading-text-3 {
+        color: rgb(230, 230, 230);
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .soc-icons {
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    .last-text {
+        color: rgb(230, 230, 230);
+        font-size: 14px;
+        margin-top: 12px;
+    }
+
+    .footer-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .all-elements-of-footer {
+        padding-top: 70px;
+        margin: 0 50px;
+    }
+
+    .net-icon-1, .net-icon-2, .net-icon-3, .net-icon-4, .net-icon-5 {
+        width: 35px;
+    }
+
+    .net-icon-1 {
+        margin-left: 20px;
+    }
+}
